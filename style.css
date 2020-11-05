@@ -80,9 +80,15 @@ input{
 }
 
 .footer-text{
-    color: white;
     border-radius: 0!important;
 }
+
+.footer-text h4{
+    color: white;
+    font-family: gothic;
+    font-size: 16px;
+}
+
 
 .box{
     background-color: #ffffff;
@@ -116,6 +122,10 @@ input{
     }
 
     .text{
+        font-size: 12px;
+    }
+
+    .footer-text h4{
         font-size: 12px;
     }
 
