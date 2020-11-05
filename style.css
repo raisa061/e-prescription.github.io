@@ -9,6 +9,13 @@
 .logo{
     height: 65px;
 }
+.download-btn{
+    float: right;
+    margin-top: 10px;
+    font-size: 20px!important;
+    color: #15558D !important;
+}
+
 
 body{
    background-image: linear-gradient(#ebf0fa, #e6f5ff);
@@ -74,6 +81,7 @@ input{
 
 .footer-text{
     color: white;
+    border-radius: 0!important;
 }
 
 .box{
@@ -82,6 +90,7 @@ input{
 
 .box-header{
     background-color: #15558D;
+    border-radius:10px 10px 0 0;
 }
 
 @media (max-width: 575px){
@@ -108,6 +117,11 @@ input{
 
     .text{
         font-size: 12px;
+    }
+
+    .download-btn{
+        font-size: 15px !important;
+        margin-top: 25px;
     }
 
 }
